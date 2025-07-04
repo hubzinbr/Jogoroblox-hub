@@ -58,6 +58,7 @@ Instance.new("UICorner", botao).CornerRadius = UDim.new(0, 10)
 botao.MouseButton1Click:Connect(function()
     if input.Text == keyCorreta then
         keyGui:Destroy()
+
         loadstring(game:HttpGet(repo .. "menu.lua"))()
     else
         input.Text = ""
