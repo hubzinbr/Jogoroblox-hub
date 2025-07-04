@@ -9,7 +9,7 @@ loadstring(game:HttpGet(repo .. "carregamento.lua"))()
 task.wait(2)
 
 -- Verificação de Key
-loadstring(game:HttpGet(repo .. "key.lua"))()
+loadstring(game:HttpGet(repo .. "interfacekey.lua"))()
 
 -- Após key correta, seu key.lua deve carregar automaticamente:
 -- loadstring(game:HttpGet(repo .. "interface.lua"))()
