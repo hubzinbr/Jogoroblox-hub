@@ -12,7 +12,7 @@ task.wait(2)
 loadstring(game:HttpGet(repo .. "interfacekey.lua"))()
 
 -- Após key correta, seu key.lua deve carregar automaticamente:
--- loadstring(game:HttpGet(repo .. "interface.lua"))()
+-- loadstring(game:HttpGet(repo .. "menu.lua"))()
 -- loadstring(game:HttpGet(repo .. "botoes.lua"))()
 -- loadstring(game:HttpGet(repo .. "abas.lua"))()
 -- loadstring(game:HttpGet(repo .. "config.lua"))()
